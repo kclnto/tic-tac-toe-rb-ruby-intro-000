@@ -97,7 +97,7 @@ def current_player(board)
   end
   if o_turns > x_turns
     return "X"
-  elsif x_turns > o_turns
+  elsif o_turns < x_turns
     return "O"
   elsif (x_turns == o_turns)
     return "X"
