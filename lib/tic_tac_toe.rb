@@ -99,10 +99,8 @@ def current_player(board)
     return "X"
   elsif x_turns > o_turns
     return "O"
-  elsif (x_turns == o_turns) && (over?(board) == false)
+  elsif (x_turns == o_turns)
     return "X"
-  #elsif (x_turns == o_turns) && (over?(board) == true)
-  #  return "O"
   else
     return "kacy wtf"
   end
